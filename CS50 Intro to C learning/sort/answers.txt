@@ -1,0 +1,23 @@
+sort1 uses: Bubble Sort
+
+How do you know?: Both Selection- and Bubble Sort, ends on O(n^2), however Bubble sort has a best case (Omega)(n), where Selection Sort has (Omega)(n^2). By using the sorted5000 txt, we can determine since there is a best case of an already sorted txt. Bubble sort will be considerably faster.
+        sorted5000      sorted10000     sorted50000
+sort1   // 0.059        // 0.88         1.030
+sort3   // 0.076        // 0.206        4.433
+
+        Revered50000
+sort1   // 6.225
+sort3   // 3.893
+
+sort2 uses: Merge Sort
+
+How do you know?: Using the random.txt files, we can determine the fastest sorting algorithm would be Merge sort. This is due to the nature of the data provided as well as the usage of recusion to not loop through each line multiple times to the end of the txt and back for each entry.
+        random5000      random10000     random50000
+sort1   // 0.078        // 0.307        // 8.312
+sort2   // 0.063        // 0.098        // 0.908
+sort3   // 0.051        // 0.175        // 3.635
+
+sort3 uses: Selection Sort
+
+How do you know?: Selection Omega and O is the same, thus the time for the sorted50000 and reversed50000 would be relative the same and by proccess of elimation.
+
